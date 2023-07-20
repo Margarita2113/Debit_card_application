@@ -85,6 +85,7 @@ class CallbackTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void shouldWritingADoubleNameByASpaceInRussian() {
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Оськина Анна Маргарита");
@@ -97,6 +98,7 @@ class CallbackTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void shouldWritingADoubleSurnameByASpaceInRussian() {
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Оськина Иванова Маргарита");
@@ -109,6 +111,7 @@ class CallbackTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void shouldWritingTheNameWithLetterEInRussian() {
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Артёмова Маргарита");
@@ -121,6 +124,7 @@ class CallbackTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void shouldWritingTwoLettersInRussian() {
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Су Ли");
