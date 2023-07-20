@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/dv27f1hfwvgpm64d?svg=true)](https://ci.appveyor.com/project/Margarita2113/debit-card-application)
